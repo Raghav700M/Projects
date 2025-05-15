@@ -1,0 +1,124 @@
+1) What is python? What are the key features?
+
+Python is a high-level, interpreted, and general-purpose programming language. It was created by Guido van Rossum and released in 1991. Python emphasizes code readability and simplicity, making 
+it one of the most beginner-friendly languages in the programming world. It is widely used in web development, data science, artificial intelligence, automation, and more.
+
+Key features:-
+
+Easy to Learn and Use
+Interpreted Language
+High-Level Language
+Object-Oriented and Functional
+Integrated with Other Languages
+
+
+2) Story Behind the name ?
+
+When Guido van Rossum, the creator of Python, started developing the language in the late 1980s, he wanted a name that was short, unique, and a bit mysterious. At the time, he was also reading the 
+published scripts of "Monty Python’s Flying Circus", a surreal British comedy series from the 1970s. Hence, Python was named after Monty Python. 
+
+3) Version of Python?
+
+Python 1.x (Released in 1991) :- Included basic features like functions, exceptions, and core data types (str, list, dict, etc.).
+Python 2.x (2000 – 2020) :- List comprehensions, Garbage collection via reference counting and cycle detector
+Python 3.x (2008 – Present) :- A complete redesign of the language to fix fundamental design flaws.
+
+Current version as of 2025: likely Python 3.12 or later.
+
+4) Execution environments: the Python Interpreter and IDEs (e.g. PyCharm or VSCode)
+
+To write and run Python code, you need an execution environment. This includes the Python Interpreter, and optionally, an IDE or a code editor for development support. The Python Interpreter is the 
+core engine that reads and executes your Python code line by line. When you install Python, you get access to this interpreter through the command line (python or python3).
+IDEs provide a rich interface for coding, debugging, and project management. 
+
+PyCharm:- A professional-grade IDE built specifically for Python.
+
+Features:
+
+Smart code completion
+Powerful debugger and testing tools
+Virtual environment management
+Comes in Community (free) and Professional (paid) editions.
+Best for Large projects
+
+
+Visual Studio Code (VS Code) :- A lightweight, fast, and customizable code editor.
+
+
+Features:
+
+Syntax highlighting
+Code auto-completion
+Git integration
+Best for Beginners and intermediate users
+Web and cross-language projects
+
+5) Identation
+
+Indentation refers to the spaces or tabs at the beginning of a line of code to visually separate code blocks.
+
+
+6) Literal Constants
+
+name = "Raghav"       # String literal
+name1="123Raghav"     # String literal
+age = 25              # Integer literal
+height = 5.9          # Float literal
+is_student = True     # Boolean literal
+
+
+
+7) Immutable String :- In Python, strings are immutable, which means once a string is created, it cannot be changed (modified) in place. Below ia one example :-
+
+name = "Raghav"
+name[0] = "H"
+print(name)
+
+Here, the python code will throw an error as string assignment doesnt support by python
+
+8) Escape Sequences :- An escape sequence is a special character combination used to represent characters that are difficult or impossible to type directly in a 
+string. It starts with a backslash (\) followed by another character.
+
+Escape Sequence	Description	Example
+\n	Newline 	"Hello\nWorld" → Hello (newline) World
+\t	Tab 	"Hello\tWorld" → Hello (tab) World
+\\	Backslash	"C:\\Users\\name" → C:\Users\name
+\'	Single quote (for strings with single quotes)	"It\'s raining" → It's raining
+\"	Double quote (for strings with double quotes)	'She said, \"Hello!\"' → She said, "Hello!"
+\r	Carriage return	"Hello\rWorld" → Overwrites "Hello" with "World"
+\b	Backspace (removes a character)	"Helloo\b World" → Hello World
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
